@@ -1,0 +1,7 @@
+{
+  "name": "justChat",
+  "displayName": "justChat",
+  "expo": {
+    "plugins": ["expo-image-picker"]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "237983122125",
+    "project_id": "justchat-37f6f",
+    "storage_bucket": "justchat-37f6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237983122125:android:c4afefe012a79f95ac1f84",
+        "android_client_info": {
+          "package_name": "com.justchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237983122125-bn8ug206sbc5vegikc9pc17raukq99r4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzFFY5UdnvCq21717tRoc5aG_MkvNVM0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237983122125-bn8ug206sbc5vegikc9pc17raukq99r4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "237983122125-9vrrusj1cimpq0e97qlqvp27tard89io.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.justChat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

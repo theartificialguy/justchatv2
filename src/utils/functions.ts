@@ -1,3 +1,5 @@
+/* eslint-disable curly */
+/* eslint-disable dot-notation */
 import firestore from '@react-native-firebase/firestore';
 import {
     AddFriendListItemType,
@@ -19,9 +21,7 @@ export const checkFriendStatus = async (uid: string, fuid: string) => {
     let status = FriendStatus.UNKNOWN;
     if (myDocData.exists && docData.exists) {
         const myFriends = myDocData.data()?.['friends'] as string[];
-        const myFriendRequests = myDocData.data()?.[
-            'friendRequests'
-        ] as string[];
+        const myFriendRequests = myDocData.data()?.friendRequests as string[];
         const friends = docData.data()?.['friends'] as string[];
         const friendRequests = docData.data()?.['friendRequests'] as string[];
         if (

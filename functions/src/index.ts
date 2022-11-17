@@ -1,9 +1,13 @@
-import * as functions from "firebase-functions";
+import * as admin from 'firebase-admin';
 
-// // Start writing functions
-// // https://firebase.google.com/docs/functions/typescript
-//
-// export const helloWorld = functions.https.onRequest((request, response) => {
-//   functions.logger.info("Hello logs!", {structuredData: true});
-//   response.send("Hello from Firebase!");
-// });
+// Friend Request Management
+export { sendRequest } from './friendRequestManagement/sendRequest';
+export { removeFriend } from './friendRequestManagement/removeFriend';
+export { cancelRequest } from './friendRequestManagement/cancelRequest';
+export { acceptFriendRequest } from './friendRequestManagement/acceptFriendRequest';
+export { rejectFriendRequest } from './friendRequestManagement/rejectFriendRequest';
+
+// Rooms Management
+export { createPrivateRoom } from './rooms/createPrivateRoom';
+
+admin.initializeApp();
